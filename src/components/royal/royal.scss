@@ -1,0 +1,9 @@
+.check-box {
+  margin: 10px 0 0 50px !important;
+  display: flex;
+  align-items: center;
+  input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+}

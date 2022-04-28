@@ -1,0 +1,48 @@
+.creative {
+  position: relative;
+
+  h2 {
+    margin: 20px 0;
+    // text-align: center;
+    font-weight: bold;
+  }
+  .bg-img {
+    background-image: url("../../data/images/bg5.webp");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-footer {
+    background-color: #000000;
+    opacity: 0.8;
+  }
+}
+.creative-sec {
+  background: #f4f4f4;
+  padding: 70px 0;
+  margin: auto;
+  text-align: center;
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  input {
+    padding: 8px 24px;
+
+    background: transparent;
+    border-radius: 29px;
+    border: 1px solid #bbb4b4;
+    color: #000000;
+    font-size: 12px;
+    width: 300px;
+  }
+  input[type="email"]:focus {
+    outline: none;
+  }
+  button {
+    color: #333;
+    background: #00ff7b;
+    margin-left: 5px;
+  }
+}

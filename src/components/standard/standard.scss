@@ -1,0 +1,18 @@
+.standard-sec {
+  padding: 7px 0;
+  background: #bdbaba4a;
+  border-top: 1px solid #bdbaba4a;
+  border-bottom: 1px solid #bdbaba4a;
+  .radio-field {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 70% 20%;
+    input[type="radio"] {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  p {
+    margin: 10px 0 0 50px !important;
+  }
+}

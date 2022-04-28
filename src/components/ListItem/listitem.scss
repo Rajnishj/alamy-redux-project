@@ -1,0 +1,26 @@
+.card {
+  padding-bottom: 30px;
+  img {
+    width: 355px;
+    height: 440px;
+    object-fit: cover;
+  }
+  h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 87px;
+    height: 60px;
+  }
+
+  p {
+    font-size: 12px;
+    padding-right: 30px;
+    margin: 0;
+    height: 60px;
+  }
+  button {
+    color: #333;
+    margin: 0;
+    margin-top: 22px;
+  }
+}

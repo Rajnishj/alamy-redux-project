@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.btn-sec {
+  margin: 0 40px;
+  padding: 8px 24px;
+  border: 0;
+  background: transparent;
+  border-radius: 29px;
+  border: 1px solid #bbb4b4;
+  color: #fff;
+  font-size: 12px;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.bg-change {
+  background-color: #000000;
+  color: #ffffff;
+  .inner-sec {
+    h1 {
+      a {
+        color: #fff !important;
+      }
+    }
+    span {
+      color: #fff !important;
+    }
+  }
+}
